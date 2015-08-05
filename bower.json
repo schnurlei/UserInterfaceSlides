@@ -1,0 +1,33 @@
+{
+  "directory": "./public_html/bower_components",
+  "name": "User Interfaces",
+  "version": "0.5.0",
+  "homepage": "https://github.com/schnurlei/exx-angular-authentication",
+  "authors": [
+    "Rainer Schneider <rainer.schneider@exxcellent.de>"
+  ],
+  "description": "Einführung in Tinkerforge",
+  "ignore": [
+    "examples",
+    ".git",
+    ".bowerrc",
+    ".gitignore",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "reveal.js": "https://github.com/hakimel/reveal.js.git#~3.1.0",
+    "jquery": "~2.1.4",
+    "angular": "~1.4.0",
+    "angular-bootstrap": "~0.13.0",
+    "d3": "~3.5.6",
+    "angular-nvd3": "~1.0.0-rc.2"
+  },
+  "keywords": [
+    "tinkerforge"
+  ],
+  "license": "APACHE 2.0",
+  "devDependencies": {}
+}
