@@ -1,5 +1,0 @@
-[ViewObject{bg:orange}]++-1..*>[PrimitiveValue{bg:orange}]
-[ViewObject{bg:orange}]++-0..*>[ViewReference]
-[ViewObject{bg:orange}]++-0..*>[ViewList]
-[ViewReference{bg:orange}]-0..1>[ViewObject]
-[ViewList{bg:oraüäpnge}]-0..*>[ViewObject]

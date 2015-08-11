@@ -1,0 +1,5 @@
+[ViewObject||_create_();_read()_;insert();merge();delete(){bg:yellowgreen}]++-1..*>[PrimitiveValue{bg:yellowgreen}]
+[ViewObject{bg:yellowgreen}]++-0..*>[ViewReference]
+[ViewObject{bg:yellowgreen}]++-0..*>[ViewList]
+[ViewReference{bg:yellowgreen}]-0..1>[ViewObject]
+[ViewList{bg:yellowgreen}]-0..*>[ViewObject]

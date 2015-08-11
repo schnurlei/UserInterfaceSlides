@@ -1,0 +1,5 @@
+[DataObject||_read_();insert();update();delete(){bg:orange}]++-1..*>[PrimitiveValue{bg:orange}]
+[DataObject{bg:orange}]++-0..*>[ObjectReference]
+[DataObject{bg:orange}]++-0..*>[ObjectList]
+[ObjectReference{bg:orange}]-0..1>[DataObject]
+[ObjectList{bg:orange}]-0..*>[DataObject]
