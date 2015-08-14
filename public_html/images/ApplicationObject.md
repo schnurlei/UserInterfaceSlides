@@ -1,7 +1,10 @@
+#Application Object
+
+##Defintion
 A Application Object is used to Manipulate Data in the Application.
 
-It wraps a View or a Data Object and holds Information about the edit state of the object,
-and the chaged attributes.
+It wraps a View Object and holds Information about the edit state of the object,
+and possible the changed attributes.
 
 Possible states are isNew, isChanged, isMarkedAsDeleted.
 
